@@ -3,8 +3,11 @@ Service for connecting to a VPN on a Linux server
 
 
 1.sudo systemctl enable xray
+
 2.sudo systemctl start xray
+
 3.1
+
 Для конкретного пользователя
 
 Откройте файл .bashrc
