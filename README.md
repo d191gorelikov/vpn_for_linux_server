@@ -14,6 +14,7 @@ Service for connecting to a VPN on a Linux server
 Добавьте в файл .bashrc следующие строки:
 
 export http_proxy="http://127.0.0.1:1081"
+
 export https_proxy="http://127.0.0.1:1081"
 
 и выполнить source ~/.bashrc
@@ -25,6 +26,7 @@ export https_proxy="http://127.0.0.1:1081"
 Добавьте в файл  /etc/environment следующие строки:
  
 http_proxy="http://127.0.0.1:1081"
+
 https_proxy="http://127.0.0.1:1081"
 
 и выполнить source /etc/environment
