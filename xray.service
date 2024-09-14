@@ -1,0 +1,10 @@
+[Unit]
+Description=Xray Proxy Service
+After=network.target
+
+[Service]
+ExecStart=/usr/local/bin/xray -config /usr/local/etc/xray/config.json
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
